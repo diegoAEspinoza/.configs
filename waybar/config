@@ -117,7 +117,7 @@
     },
     "custom/launcher":{
         "format": " ",
-        "on-click": "rofi -show drun",
+        "on-click": "wofi -show drun",
         "on-click-right": "killall rofi"
     },
     "custom/power":{
@@ -129,7 +129,7 @@
         "exec": "checkupdates | wc -l",
         "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
         "interval": 15,
-        "on-click": "alacritty -e paru -Syu && notify-send 'The system has been updated' "
+        "on-click": "kitty -e yay -Syu && notify-send 'The system has been updated' "
     },
     
 }
