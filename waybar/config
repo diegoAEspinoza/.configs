@@ -118,7 +118,7 @@
     "custom/launcher":{
         "format": " ",
         "on-click": "wofi -show drun",
-        "on-click-right": "killall rofi"
+        "on-click-right": "killall wofi"
     },
     "custom/power":{
         "format": "<span color='#f7768e'>⏻</span>",
