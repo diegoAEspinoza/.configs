@@ -7,7 +7,7 @@
 
 	"modules-left": ["custom/launcher","cpu","memory","disk"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["network","pulseaudio", "battery","clock","custom/power"],
+	"modules-right": ["network","pulseaudio","tray", "battery","clock","custom/power"],
 	
 
     // Sourced modules
@@ -48,9 +48,9 @@
     },
 	"network": {
 		"tooltip": false,
-		"format-wifi": "<span color='#9ece6a'> ï‡ </span> {bandwidthDownBits}",
+		"format-wifi": "<span color='#9ece6a'> ï‡« </span> {bandwidthDownBits}",
 		"format-ethernet": "<span color='#9ece6a'>ó°ˆ€  </span> {bandwidthDownBits}",
-		"format-disconnected": "<span color='#f7768e'>« </span>Â",
+		"format-disconnected": "<span color='#f7768e'>î« </span>Â",
         "interval": 30
 	},
 	"backlight": {
