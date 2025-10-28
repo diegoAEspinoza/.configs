@@ -1,24 +1,20 @@
-/* Inspirado en tu waybar/style.css y kitty.conf */
 * {
-    /* Tu fuente de Kitty y Waybar */
     font-family: "JetbrainsMono Nerd Font";
     font-size: 15px;
 }
 
 window {
-    /* El color de fondo de tu Kitty con la opacidad de tu Waybar */
-    background-color: rgba(26, 27, 38, 0.85); /* 0.85 para legibilidad */
-    /* El border-radius de tu Waybar */
+    background-color: rgba(26, 27, 38, 0.85)
     border-radius: 15px;
-    border: 2px solid #7aa2f7; /* Tu color azul "color4" de Kitty */
+    border: 2px solid #7aa2f7; 
 }
 
 /* El cuadro de búsqueda */
 #input {
     padding: 10px;
     margin: 15px;
-    background-color: #32344a; /* Tu color "color0" */
-    color: #a9b1d6; /* Tu "foreground" de Kitty */
+    background-color: #32344a; 
+    color: #a9b1d6; 
     border: none;
     border-radius: 10px;
 }
@@ -29,7 +25,6 @@ window {
 }
 
 #scroll {
-    /* Quita cualquier borde o fondo de la lista */
     border: none;
     background-color: transparent;
 }
