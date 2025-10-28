@@ -1,0 +1,50 @@
+/* Inspirado en tu waybar/style.css y kitty.conf */
+* {
+    /* Tu fuente de Kitty y Waybar */
+    font-family: "JetbrainsMono Nerd Font";
+    font-size: 15px;
+}
+
+window {
+    /* El color de fondo de tu Kitty con la opacidad de tu Waybar */
+    background-color: rgba(26, 27, 38, 0.85); /* 0.85 para legibilidad */
+    /* El border-radius de tu Waybar */
+    border-radius: 15px;
+    border: 2px solid #7aa2f7; /* Tu color azul "color4" de Kitty */
+}
+
+/* El cuadro de búsqueda */
+#input {
+    padding: 10px;
+    margin: 15px;
+    background-color: #32344a; /* Tu color "color0" */
+    color: #a9b1d6; /* Tu "foreground" de Kitty */
+    border: none;
+    border-radius: 10px;
+}
+
+/* La lista de aplicaciones */
+#inner-box {
+    margin: 0px 15px 15px 15px;
+}
+
+#scroll {
+    /* Quita cualquier borde o fondo de la lista */
+    border: none;
+    background-color: transparent;
+}
+
+/* Cada entrada de la lista */
+#entry {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #acb0d0; /* Tu "color15" */
+}
+
+/* La entrada seleccionada */
+#entry:selected {
+    background-color: #444b6a; /* Tu "color8" */
+    color: #e0af68; /* Tu "color3" de Kitty (amarillo) */
+}

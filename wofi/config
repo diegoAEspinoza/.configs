@@ -1,0 +1,11 @@
+mode=drun
+
+allow_images=true
+
+haling=center
+valing=center
+
+width=45%
+height=45%
+
+syle=style.css
