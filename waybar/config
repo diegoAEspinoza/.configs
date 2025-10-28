@@ -1,13 +1,13 @@
 {
     "layer": "top",
     "margin-top": 10,
-    "margn-bottom": 0,
+    "margin-bottom": 0,
 
     //Modules layout
 
 	"modules-left": ["custom/launcher","cpu","memory","disk"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["network","pulseaudio","tray", "battery","clock","custom/power"],
+	"modules-right": ["network", "tray","pulseaudio", "battery","clock","custom/power"],
 	
 
     // Sourced modules
@@ -45,7 +45,7 @@
             "empty": "<span font='8'></span>",
             "persistent": "󰊠",
         },
-    },
+    }, 
 	"network": {
 		"tooltip": false,
 		"format-wifi": "<span color='#9ece6a'>  </span> {bandwidthDownBits}",
@@ -118,12 +118,12 @@
     },
     "custom/launcher":{
         "format": " ",
-        "on-click": "wofi -show drun",
+        "on-click": "wofi",
         "on-click-right": "killall wofi"
     },
     "custom/power":{
         "format": "<span color='#f7768e'>⏻</span>",
-        "on-click": "wlogout",
+        "on-click": "wlogout"
     },
     "custom/updates":{
         "format": "{} Update(s)",
@@ -131,6 +131,5 @@
         "exec-if": "[[ $(checkupdates | wc -l) != 0 ]]",
         "interval": 15,
         "on-click": "kitty -e yay -Syu && notify-send 'The system has been updated' "
-    },
-    
+    }
 }
